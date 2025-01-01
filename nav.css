@@ -1,0 +1,47 @@
+.navbar{
+    
+    color: #f7f4f4;
+  
+   
+  }
+  .n2{
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  .navbar ul li{
+    height: 100%;
+display: inline-block;
+padding: 18px;
+text-transform: uppercase;
+background-color: rgb(9, 70, 70);
+}
+
+.navbar ul li a{
+text-decoration: none;
+color: #fff;
+padding: 4px;
+transition: 1.5s;
+}
+
+.navbar ul li a:hover{
+box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+
+.navbar .reservation{
+padding: 8px;
+background-color: orangered;
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.container h1{
+color: orangered;
+margin-left: 10px;
+cursor: pointer;
+}
+  
